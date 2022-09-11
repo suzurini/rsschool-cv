@@ -1,3 +1,3 @@
 # rsschool-cv
 
-https://suzurini.github.io/rsschool-cv/cv
+https://suzurini.github.io/rsschool-cv/
