@@ -1,1 +1,3 @@
 # rsschool-cv
+
+https://suzurini.github.io/rsschool-cv/
