@@ -18,7 +18,7 @@
 ---
 ---
 
- I am 36. I want to reach the level of Junior Dev and write quality code in order to be able to earn money doing what I like.
+ I am 37. I want to reach the level of Junior Dev and write quality code in order to be able to earn money doing what I like.
  
  I like to create something new, to work on solving complex and interesting problems. I like to learn and develop. 
  
@@ -39,6 +39,7 @@
 ---
 + HTML, 
 + CSS,
++ Python,
 + PHP (Basic), 
 + JavaScript (Fundamentals, Functional Programming, OOP),
 + Frameworks: Meteor, Node.js, Bootstrap
@@ -58,15 +59,19 @@
 **Expirience**
 ---
 ---
-Experience less than 1 year freelance: creating sites and online stores.
+Experience less than 2 year freelance: creating sites and online stores.
 
-Example last my work http://moretrips.ru/
+Example last my works:
+
++ https://moretrips.ru/
++ https://ogcompany.ltd
 
 ---
 **Education**
 ---
 ---
 - FEFU specialty Information systems and technologies in economics. 
+- Moscow University for Industry and Finance "Synergy" Professional retraining Python Developer.
 - Currently taking an English course at an online school Advance.
 - JavaScript - learn.javascript.ru
 - HTMLAcademy
