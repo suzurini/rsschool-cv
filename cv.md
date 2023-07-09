@@ -76,7 +76,7 @@ Example last my works:
 - JavaScript - learn.javascript.ru
 - HTMLAcademy
 - Advance Academy "English to B1" (in pogress)
-- RS School Course "JavaScript / Frontend.Stage0" (in progress)
+- RS School Course "JavaScript / Frontend.Pre-School" (in progress)
 ---
 ***Languages**
 ---
