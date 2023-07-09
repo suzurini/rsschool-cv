@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body{
     font-family: 'Roboto', sans-serif;
     min-height: 100vh;
@@ -13,4 +17,41 @@ body{
 .container {
     max-width: 1440px;
     margin: 0 auto;
+}
+
+.nav-list{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+}
+
+a.nav-link{
+    text-decoration: none;
+    padding: 20px;
+    line-height: 60px;
+    font-size: 2em;
+    transition: .3s;
+    color: #fff;
+    background-color: rgb(1, 220, 147);
+}
+
+a.nav-link:hover {
+    color: bisque; 
+    background-color: cadetblue;
+}
+
+img.avatar {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .5);
+}
+
+.footer{
+    background-color: rgb(1, 220, 147);
+    color: #fff;
+    font-size: 1.5em;
+    padding: 10px 20px;
+    height: 60px;
 }
