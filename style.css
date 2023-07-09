@@ -41,6 +41,18 @@ a.nav-link:hover {
     background-color: cadetblue;
 }
 
+.section-profile {
+    display: flex;
+}
+
+.section-title-summary {
+    font-size: 2em;
+}
+
+.section-avatar {
+    width: 200px;
+}
+
 img.avatar {
     width: 200px;
     height: 200px;
