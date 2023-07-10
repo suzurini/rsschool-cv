@@ -7,6 +7,7 @@
     --granite: #b7b8b6;
     --pine: #34675c;
     --fields: #b3c100;
+    --main-color: #444;
 }
 
 html {
@@ -25,7 +26,7 @@ body{
     font-size: 18px;
     font-weight: 400;
     line-height: 1.5em;
-    color: #444;
+    color: var(--main-color);
 }
 
 .header{
@@ -61,7 +62,7 @@ body{
     text-decoration: none;
     padding: 0 10px;
     line-height: 50px;
-    font-size: 1.3em;
+    font-size: 1.2em;
     font-weight: 300;
     color: #fff;
 }
@@ -109,9 +110,28 @@ body{
     border: none;
 }
 
+.section-title.profile-name {
+    position: relative;
+    letter-spacing: 5px;
+    word-spacing: 5px;
+    font-size: 1.5em;
+    font-weight: 400;
+    color: var(--pine);
+}
+
 .section-title {
     text-transform: uppercase;
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-size: 1.2em;
     letter-spacing: 5px;
+    color: var(--blue-skye);
+}
+
+.section-subtitle {
+    color: var(--granite);
+    letter-spacing: 3px;
+    font-weight: 300;
 }
 
 .section-profile {
@@ -129,7 +149,6 @@ body{
     align-content: center;
     text-align: center;
     text-transform: capitalize;
-    font-size: 2em;
 }
 
 img.avatar {
@@ -137,6 +156,49 @@ img.avatar {
     height: 200px;
     border-radius: 50%;
     box-shadow: 0 1px 4px rgba(0, 0, 0, .5);
+}
+
+.pre {
+    margin: 0;
+    padding: 0;
+}
+
+.pre span {
+    color: var(--blue-skye);
+}
+
+.section-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.section-item {
+    position: relative;
+    margin: 0;
+    margin-bottom: 10px;
+    padding: 0;
+    padding-left: 25px;
+}
+
+.section-item::before {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: 0px;
+    width: 16px;
+    height: 16px;
+    background-size: 16px 16px;
+    background-image: url("assets/svg/1.svg");
+}
+
+.section-item span {
+    color: var(--blue-skye);
+}
+
+.list-link {
+    text-transform: uppercase;
+    color: var(--blue-skye);
 }
 
 .footer{
