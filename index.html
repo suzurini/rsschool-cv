@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="./assets/favicon.ico">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kseniia Storozh CV</title>
 </head>
@@ -20,6 +20,7 @@
                     <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
                     <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
                     <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+                    <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
                     <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
                     <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
                     <li class="nav-item"><a href="#lang" class="nav-link">Languages</a></li>
@@ -30,18 +31,14 @@
     <main class="main">
         <div class="container main-container">
             <section class="section section-profile" id="profile">
-                <div class="section-avatar">
-                    <img src="./assets/img/my_avatar.jpeg" alt="my photo" class="avatar">
-                </div>
+                <img src="./assets/img/my_avatar.jpeg" alt="my photo" class="avatar">
                 <div class="section-profile-title-summary">
-                    <h1>Kseniia Storozh</h1>
+                    <h1 class="section-title">Kseniia Storozh</h1>
                     <h3>Pre-Junior Frontend Developer</h3>
                 </div>
             </section>
-        </div>
-        <section class="section section-contacts" id="contacts">
-            <div class="container">
-                <h2>Contact Information</h2>
+            <section class="section section-contacts" id="contacts">
+                <h2 class="section-title">Contact Information</h2>
                 <ul>
                     <li>Location: Vladivostok, Russia</li>
                     <li>Phone: +7 914 066 79 58</li>
@@ -49,30 +46,27 @@
                     <li>E-mail: valloforr@gmail.com</li>
                     <li>Discord: Ksyumi(@suzurini)</li>
                 </ul>
-            </div>
-        </section>
-        <section class="section section-summary" id="summary">
-            <h2>About Myself</h2>
-            <pre>
-    I am 37. I want to reach the level of Junior Dev and write quality code in order to be able to earn money doing what I like.
-
-    I like to create something new, to work on solving complex and interesting problems. I like to learn and develop. 
-
-    At the moment, I created sites according to the technical specifications in HTML, PHPб CSS and JS, did modifide WP templates, created a project for myself in the Meteor Framework and hosted it on DigitalOcean. 
-
-    Studied on free manuals from the Internet. This is my first time taking a course in programming. I am ready to learn a lot of new things and improve my skills and work speed.
-</pre>
-            <h2>My strengths:</h2>
-            <ul>
-                <li>like to solve complex problems and bring things to the end,</li>
-                <li>can plan my time,</li>
-                <li>strive to learn new skills and apply them,</li>
-                <li>accept any experience and draw conclusions from mistakes,</li>
-                <li>welcome criticism and advice.</li>
-            </ul>
-        </section>
+            </section>
+            <section class="section section-summary" id="summary">
+                <h2 class="section-title">About Myself</h2>
+                <p>
+                    I am 37. I want to reach the level of Junior Dev and 
+                    write quality code in order to be able to earn money 
+                    doing what I like. I like to create something new, 
+                    to work on solving complex and interesting problems. 
+                    I like to learn and develop. 
+                    At the moment, I created sites according to the technical
+                    specifications in HTML, PHPб CSS and JS, did modifide WP 
+                    templates, created a project for myself in the Meteor 
+                    Framework and hosted it on DigitalOcean. 
+                    Studied on free manuals from the Internet. 
+                    I am ready to learn a lot of new things and improve 
+                    my skills and work speed.
+                </p>
+            </section>
+        
         <section class="section section-skills" id="skills">
-            <h2>Skills</h2>
+            <h2 class="section-title">Skills</h2>
             <ul>
                 <li>HTML,</li>
                 <li>CSS,</li>
@@ -86,47 +80,54 @@
             </ul>
         </section>
         <section class="section section-code" id="code">
-            <h2>Code Examples</h2>
-            <pre>
+            <h2 class="section-title">Code Examples</h2>
+            <p>
                         <code>
                     //task from registration Codewars<br>
                     function multiply(a, b){<br>
                         return a * b;<br>
                     }
                         </code>
-                    </pre>
+            </p>
         </section>
-        <section class="section section-projects" id="projects">
-            <h2>Expirience</h2>
-            <pre>
-                Experience less than 2 year freelance: creating sites and online stores.
-
-                Example last my works:
-
-                <a href="https://moretrips.ru/">https://moretrips.ru/</a>
-                <a href="https://ogcompany.ltd">https://ogcompany.ltd</a>
-                </pre>
-        </section>
-        <section class="section section-education" id="education">
-            <h2>Education</h2>
+        <section class="section section-courses" id="courses">
+            <h2 class="section-title">Courses</h2>
             <ul>
-                <li>FEFU specialty Information systems and technologies in economics. </li>
-                <li>Moscow University for Industry and Finance "Synergy" Professional retraining Python Developer.</li>
-                <li>Currently taking an English course at an online school Advance.</li>
                 <li>JavaScript - learn.javascript.ru</li>
                 <li>HTMLAcademy</li>
                 <li>Advance Academy "English to B1" (in pogress)</li>
                 <li>RS School Course "JavaScript / Frontend.Pre-School" (in progress).</li>
             </ul>
         </section>
+        <section class="section section-projects" id="projects">
+            <h2 class="section-title">Expirience</h2>
+            <p>
+                Experience less than 2 year freelance: creating sites and online stores.
+
+                Example last my works:
+                <ul>
+                    <li><a href="https://moretrips.ru/">https://moretrips.ru/</a></li>
+                    <li><a href="https://ogcompany.ltd">https://ogcompany.ltd</a></li>
+                </ul>
+            </p>
+        </section>
+        <section class="section section-education" id="education">
+            <h2 class="section-title">Education</h2>
+            <ul>
+                <li>FEFU specialty Information systems and technologies in economics. </li>
+                <li>Moscow University for Industry and Finance "Synergy" Professional retraining Python Developer.</li>
+                <li>Currently taking an English course at an online school Advance.</li>
+            </ul>
+        </section>
         <section class="section section-lang" id="lang">
-            <h2>Languages</h2>
+            <h2 class="section-title">Languages</h2>
             <ul>
                 <li>Russian - native</li>
                 <li>Bulgarian - Basic</li>
                 <li>English - Level A2. Now I'm studying at the online Academy to increase my English level to B1.</li>
             </ul>
         </section>
+        </div>
     </main>
     <footer>
         <div class="container footer">
