@@ -201,6 +201,20 @@ img.avatar {
     color: var(--blue-skye);
 }
 
+.contacts-item {
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.contacts-item img {
+    margin-right: 15px;
+    vertical-align: middle;
+}
+
+.contacts-item span {
+    color: var(--blue-skye);
+}
+
 .footer{
     background-color: var(--fields);
     color: #fff;
