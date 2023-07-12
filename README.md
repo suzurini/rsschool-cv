@@ -1,6 +1,7 @@
 # rsschool-cv
 
 [Тут правильная ссылка на работу](https://rolling-scopes-school.github.io/suzurini-JSFEPRESCHOOL2023Q2/rsschool-cv/)
+-------
 
 Pull request - https://github.com/suzurini/rsschool-cv/pulls
 
