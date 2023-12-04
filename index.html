@@ -85,40 +85,23 @@
                 <code>
 //task from registration Codewars
 <span>
-module.exports = function check(str, bracketsConfig) {
-  // your solution
-  let result = false;
-  let n = 0;
-  let strStartLength = str.length;
-  let bracketsCount = bracketsConfig.length;
-  while (n < strStartLength){
-    let i = 0;
-    while (i < bracketsCount) {
-      let findBrackets = bracketsConfig[i][0]+bracketsConfig[i][1];
-      i++;
-      if (str.indexOf(findBrackets) !== -1) {
-        let numberChar = str.indexOf(findBrackets);
-        if (numberChar >= 1) {
-          str = str.slice(0, numberChar) + str.slice(numberChar + 2);
-          // n += 2;
-        }
-        else {
-          if ((str.length - 2) > numberChar) {
-            str=str.slice(numberChar + 2);
+    module.exports = function towelSort (matrix) {
+      let i = 0;
+      let sortMatrix = [];
+      if (matrix) {
+        while (i &lt matrix.length) {
+          if (i % 2 == 0) {
+            matrix[i] = matrix[i].sort((a, b) => a - b);
           }
           else {
-            str = '';
+            matrix[i] = matrix[i].sort((a, b) => a - b).reverse();
           }
-          if (str.length == 0) {
-            result = true;
-          }
+          i++;
         }
+        sortMatrix = matrix.flat();
       }
+      return sortMatrix;
     }
-    n += 2;
-  }
-  return result;
-}
 </span>
                 </code>
             </pre>
@@ -139,11 +122,11 @@ module.exports = function check(str, bracketsConfig) {
                 Experience less than 2 year freelance: creating sites and online stores.
 
                 Example last my works:
+            </p>
                 <ul class="section-list">
                     <li class="section-item"><a href="https://moretrips.ru/" class="list-link">Online Shop</a></li>
                     <li class="section-item"><a href="https://ogcompany.ltd" class="list-link">Landing Page</a></li>
                 </ul>
-            </p>
         </section>
         <section class="section section-education" id="education">
             <h2 class="section-title">Education</h2>
@@ -170,5 +153,4 @@ module.exports = function check(str, bracketsConfig) {
     </footer>
     <script src="./index.js"></script>
 </body>
-
 </html>
