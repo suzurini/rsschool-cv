@@ -84,21 +84,21 @@
 //task from registration Codewars
 <span>
     module.exports = function towelSort (matrix) {
-      let i = 0;
-      let sortMatrix = [];
-      if (matrix) {
+    let i = 0;
+    let sortMatrix = [];
+    if (matrix) {
         while (i &lt; matrix.length) {
-          if (i % 2 == 0) {
+        if (i % 2 == 0) {
             matrix[i] = matrix[i].sort((a, b) =&gt; a - b);
-          }
-          else {
+        }
+        else {
             matrix[i] = matrix[i].sort((a, b) =&gt; a - b).reverse();
-          }
-          i++;
+        }
+        i++;
         }
         sortMatrix = matrix.flat();
-      }
-      return sortMatrix;
+    }
+    return sortMatrix;
     }
 </span>
                 </code>
