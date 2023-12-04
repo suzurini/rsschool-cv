@@ -10,20 +10,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kseniia Storozh CV</title>
 </head>
-
 <body>
     <header class="header">
         <div class="container">
             <nav class="nav">
                 <ul class="nav-list">
-                    <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
-                    <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
-                    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
-                    <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
-                    <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
-                    <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
-                    <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
-                    <li class="nav-item"><a href="#lang" class="nav-link">Languages</a></li>
+                    <li class="nav-item"><a href="#contacts" class="nav-link" aria-label="Go to Contacts">Contacts</a></li>
+                    <li class="nav-item"><a href="#summary" class="nav-link" aria-label="Go to Summary">Summary</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link" aria-label="Go to my skills">Skills</a></li>
+                    <li class="nav-item"><a href="#code" class="nav-link" aria-label="Example of code">Code</a></li>
+                    <li class="nav-item"><a href="#courses" class="nav-link" aria-label="Courses which I'm stady">Courses</a></li>
+                    <li class="nav-item"><a href="#projects" class="nav-link" aria-label="My projects">Projects</a></li>
+                    <li class="nav-item"><a href="#education" class="nav-link" aria-label="My Education">Education</a></li>
+                    <li class="nav-item"><a href="#lang" class="nav-link" aria-label="My languages">Languages</a></li>
                 </ul>
             </nav>
         </div>
@@ -67,7 +66,6 @@
                     my skills and work speed.
                 </p>
             </section>
-        
         <section class="section section-skills" id="skills">
             <h2 class="section-title">Skills</h2>
             <ul class="section-list">
@@ -91,10 +89,10 @@
       if (matrix) {
         while (i &lt; matrix.length) {
           if (i % 2 == 0) {
-            matrix[i] = matrix[i].sort((a, b) => a - b);
+            matrix[i] = matrix[i].sort((a, b) =&gt; a - b);
           }
           else {
-            matrix[i] = matrix[i].sort((a, b) => a - b).reverse();
+            matrix[i] = matrix[i].sort((a, b) =&gt; a - b).reverse();
           }
           i++;
         }
@@ -120,7 +118,6 @@
             <h2 class="section-title">Expirience</h2>
             <p>
                 Experience less than 2 year freelance: creating sites and online stores.
-
                 Example last my works:
             </p>
                 <ul class="section-list">
