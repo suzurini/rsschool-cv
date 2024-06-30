@@ -97,5 +97,5 @@ Example last my works:
 + English - Level B1. Now I'm studying at the online Academy to increase my English level to B2.
 
 ---
-
+###    
 [![]()<img src="https://app.rs.school/static/images/logo-rsschool3.png" height="50px" alt="Logo of Rsschool">](https://rs.school/)  [![]()<img src="https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png" height="50px" alt="Link to my GitHub" align="right">](https://github.com/suzurini)
