@@ -13,7 +13,8 @@
 
 - Discord: Ksuymi ✨ @suzurini
 
-===
+---
+
 ### **About Myself**
 
 
@@ -33,4 +34,64 @@
 + accept any experience and draw conclusions from mistakes,
 + welcome criticism and advice.
 
-===
+---
+
+### **Skills**
+
++ HTML, 
++ CSS,
++ Python,
++ PHP (Basic), 
++ JavaScript (Fundamentals, Functional Programming, OOP),
++ Frameworks: Meteor, Node.js, Bootstrap
++ Hosting: Digital Ocean, Godaddy
++ Editors: Visual Studio Code, Photoshop 
++ MacOS, Terminal MacOS, Windows OS, Ubuntu
+
+---
+
+### **Code Examples**
+
+
+```js
+function solution(str, ending){
+  // TODO: complete
+  let endingLength = ending.length;
+  let strEnd = str.slice(-endingLength);
+  if (ending == '') { return true; }
+  else {
+    if (strEnd == ending) { return true; } else { return false; }
+  }
+}
+```
+---
+
+### **Expirience**
+
+Experience less than 3 year freelance: creating landing pages, sites and online stores.
+
+Example last my works:
+
++ [лендинг для компании Портоброкер](https://portbroker.ltd)
++ [лендинг для китайской логистической компании](https://lianshenglogistics.ltd)
++ [лендинг для компании технического сопровождения](http://workserv.tech)
++ [лендинг для логистической компании](https://ogcompany.ltd)
+
+---
+
+### **Education**
+
+- Moscow University for Industry and Finance "Synergy" Professional retraining Python Developer.
+- Currently taking an English course at an online school Advance.
+- JavaScript - learn.javascript.ru
+- HTMLAcademy
+- Advance Academy "English to B2" (in pogress)
+- RS School Course "JavaScript / Frontend.Pre-School" (in progress)
+
+---
+
+### **Languages**
+
++ Russian - native
++ Bulgarian - Basic
++ English - Level B1. Now I'm studying at the online Academy to increase my English level to B2.
