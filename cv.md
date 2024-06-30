@@ -72,10 +72,10 @@ Experience less than 3 year freelance: creating landing pages, sites and online 
 
 Example last my works:
 
-+ [лендинг для компании Портоброкер](https://portbroker.ltd)
-+ [лендинг для китайской логистической компании](https://lianshenglogistics.ltd)
-+ [лендинг для компании технического сопровождения](http://workserv.tech)
-+ [лендинг для логистической компании](https://ogcompany.ltd)
++ [LP for company Portobroker](https://portbroker.ltd)
++ [LP fo chinese logistic company](https://lianshenglogistics.ltd)
++ [LP for technical provides](http://workserv.tech)
++ [LP for logistic company](https://ogcompany.ltd)
 
 ---
 
@@ -95,3 +95,7 @@ Example last my works:
 + Russian - native
 + Bulgarian - Basic
 + English - Level B1. Now I'm studying at the online Academy to increase my English level to B2.
+
+---
+
+[![]()<img src="https://app.rs.school/static/images/logo-rsschool3.png" width="30%" alt="Logo of Rsschool">](https://rs.school/)
