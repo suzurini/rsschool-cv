@@ -5,13 +5,13 @@
 
 - Location: Vladivostok, Russia
 
-- Phone: +7 914 066 79 58
+- Phone: [+7 914 066 79 58](tel:+79140667958)
 
-- Telegram: @ksyumiyumi
+- Telegram: [@ksyumiyumi](https://t.me/ksyumiyumi)
 
 - E-mail: valloforr@gmail.com
 
-- Discord: Ksuymi ✨ @suzurini
+- Discord: [Ksuymi ✨ @suzurini](https://discordapp.com/users/1123764169930444890)
 
 ---
 
