@@ -72,6 +72,31 @@
                     <li class="section-item">OS: <span>MacOS, Terminal MacOS, Windows OS, Ubuntu.</span></li>
                 </ul>
             </section>
+            <section class="section section-code" id="code">
+                <h2 class="section-title">Code Examples</h2>
+                <pre class="pre">
+                    <code>
+                        //task from registration Codewars
+                        <span>
+                            module.exports = function towelSort (matrix) {
+                            let i = 0;
+                            let sortMatrix = [];
+                            if (matrix) {
+                                while (i &lt; matrix.length) {
+                                    matrix[i] = matrix[i].sort((a, b) =&gt; a - b);
+                                }
+                                else {
+                                    matrix[i] = matrix[i].sort((a, b) =&gt; a - b).reverse();
+                                }
+                                i++;
+                                }
+                            sortMatrix = matrix.flat();
+                            }
+                            return sortMatrix;
+                        </span>
+                    </code>
+                </pre>
+            </section>
         </div>
     </main>
 </body>
