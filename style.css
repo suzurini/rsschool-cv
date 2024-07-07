@@ -220,3 +220,26 @@ img.avatar {
 .contacts-item span {
     color: var(--blue-skye);
 }
+
+.footer{
+    background-color: var(--fields);
+    font-size: 1.5em;
+    padding: 20px;
+    height: 90px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    color: #fff;
+}
+
+.school {
+    background-image: url(./assets/svg/rss.svg);
+    width: 120px;
+    height: 45px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
