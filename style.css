@@ -136,7 +136,7 @@ body{
     mask-image: url(./assets/svg/ks.svg);
     mask-repeat: no-repeat;
     mask-size: contain;
-    height: 90px;
+    height: 70px;
     overflow: hidden;
 }
 
@@ -275,7 +275,7 @@ li.section-item.link-dot:hover::before {
 }
 
 .section-title-summary {
-    width: 70%;
+    width: 60%;
     display: flex;
     flex-direction: column;
     align-items: center;
