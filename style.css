@@ -132,7 +132,7 @@ body{
 
 .section-title {
     text-transform: uppercase;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     font-weight: 400;
     font-size: 1.2em;
     letter-spacing: 5px;
@@ -189,7 +189,6 @@ a.link-info::after {
     transition: .5s;
 }
 
-
 a.link-info:hover::after {
     opacity: 1;
     animation-name: slidein-info;
@@ -204,6 +203,30 @@ a.link-info:hover::after {
     to {
         width: calc(55% - 24px);
     }
+}
+
+a.link-course::after, a.link-exp::after {
+    content: "";
+    position: absolute;
+    left: 20px;
+    top: 30px;
+    width: calc(55% - 24px);
+    height: 2px;
+    background-color: var(--pine);
+    opacity: 0;
+    transition: .5s;
+}
+
+a.link-course:hover::after, a.link-exp:hover::after {
+    opacity: 1;
+    animation-name: slidein-info;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+li.section-item:hover::before {
+    background-color: var(--pine);
+    transition: .3s;
 }
 
 .icon {
@@ -296,6 +319,11 @@ span.command {
     margin: 0;
     padding: 0;
     list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-items: baseline;
+    justify-content: flex-start;
+    flex-wrap: wrap;
 }
 
 .section-item {
@@ -304,7 +332,6 @@ span.command {
     margin-bottom: 10px;
     padding: 0;
     padding-left: 25px;
-    height: 30px;
     line-height: 30px;
 }
 
@@ -322,7 +349,7 @@ span.command {
 }
 
 .section-item span {
-    color: var(--blue-skye);
+    color: var(--code-name-func);
 }
 
 .list-link {
