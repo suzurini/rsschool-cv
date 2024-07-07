@@ -55,3 +55,44 @@ body{
     flex-wrap: wrap;
     justify-content: space-between;
 }
+
+.nav-list{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+}
+
+.nav-link{
+    position: relative;
+    text-decoration: none;
+    padding: 0 10px;
+    line-height: 50px;
+    font-size: 1.2em;
+    font-weight: 300;
+    color: #fff;
+}
+
+.nav-link:hover {
+    color: var(--pine);
+    transition: .3s;
+}
+
+.nav-link::after {
+    content: "";
+    position: absolute;
+    left: 12px;
+    bottom: -5px;
+    width: calc(100% - 24px);
+    height: 2px;
+    background-color: var(--pine);
+    opacity: 0;
+    transition: .5s;
+}
+
+.nav-link:hover::after {
+    opacity: 1;
+    animation-name: slidein;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
