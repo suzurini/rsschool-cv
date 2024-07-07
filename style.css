@@ -8,6 +8,11 @@
     --pine: #34675c;
     --fields: #5AF;
     --main-color: #444;
+    --code-oper: #05A;
+    --code-name-func: #4BB;
+    --code-cycle: #80F;
+    --code-brackets: #F08;
+    --code-command: #F80;
 }
 
 html {
@@ -167,10 +172,31 @@ img.avatar {
 .pre {
     margin: 0;
     padding: 0;
+    font-size: 14px;
 }
 
 .pre span {
     color: var(--blue-skye);
+}
+
+span.oper {
+    color: var(--code-oper);
+}
+
+span.name-func {
+    color: var(--code-name-func);
+}
+
+span.brackets {
+    color: var(--code-brackets);
+}
+
+span.cycle {
+    color: var(--code-cycle);
+}
+
+span.command {
+    color: var(--code-command);
 }
 
 .section-list {

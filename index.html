@@ -76,24 +76,24 @@
                 <h2 class="section-title">Code Examples</h2>
                 <pre class="pre">
                     <code>
-                        //task from registration Codewars
-                        <span>
-                            module.exports = function towelSort (matrix) {
-                            let i = 0;
-                            let sortMatrix = [];
-                            if (matrix) {
-                                while (i &lt; matrix.length) {
-                                    matrix[i] = matrix[i].sort((a, b) =&gt; a - b);
-                                }
-                                else {
-                                    matrix[i] = matrix[i].sort((a, b) =&gt; a - b).reverse();
-                                }
-                                i++;
-                                }
-                            sortMatrix = matrix.flat();
-                            }
-                            return sortMatrix;
-                        </span>
+//task from registration Codewars
+<span>
+<span class="name-func">module.exports</span> = <span class="oper">function</span> <span class="command">towelSort</span> <span class="brackets">(<span>matrix</span>) {</span>
+<span class="oper">let</span> i = 0;
+<span class="oper">let</span> sortMatrix = <span class="cycle">[]</span>;
+<span class="cycle">if (<span>matrix</span>) {
+    while</span> (i &lt; matrix.length) {
+        matrix<span class="brackets">[<span>i</span>] <span>= matrix</span>[<span>i</span>].<span class="command">sort</span>((<span>a, b</span>) <span>=&gt a - b</span>)</span>;
+    }
+    <span class="cycle">else</span> {
+        matrix<span class="brackets">[<span>i</span>] <span>= matrix</span>[<span>i</span>].<span class="command">sort</span>((<span>a, b</span>) <span>=&gt; a - b</span>)<span class="command">.reverse</span>()</span>;
+    }
+    i++;
+    <span class="cycle">}</span>
+sortMatrix = matrix.<span class="command">flat</span>();
+<span class="brackets">}</span>
+<span class="cycle">return</span> sortMatrix;
+</span>
                     </code>
                 </pre>
             </section>
