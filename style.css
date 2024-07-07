@@ -201,3 +201,22 @@ img.avatar {
 .section-item span {
     color: var(--blue-skye);
 }
+
+.list-link {
+    text-transform: uppercase;
+    color: var(--blue-skye);
+}
+
+.contacts-item {
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.contacts-item img {
+    margin-right: 15px;
+    vertical-align: middle;
+}
+
+.contacts-item span {
+    color: var(--blue-skye);
+}
