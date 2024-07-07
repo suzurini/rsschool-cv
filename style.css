@@ -153,6 +153,41 @@ body{
     border-bottom: 10px solid var(--pine);
 }
 
+.icon {
+    display: inline-block;
+    background-color: var(--blue-skye);
+    vertical-align: middle;
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+    mask-size: contain;
+    mask-repeat: no-repeat;
+}
+
+.icon-location {
+    mask-image: url(./assets/svg/5.svg);
+}
+
+.icon-phone {
+    mask-image: url(./assets/svg/4.svg);
+}
+
+.icon-telegram {
+    mask-image: url(./assets/svg/6.svg);
+}
+
+.icon-email {
+    mask-image: url(./assets/svg/3.svg);
+}
+
+.icon-github {
+    mask-image: url(./assets/svg/9.svg);
+}
+
+.icon-discord {
+    mask-image: url(./assets/svg/8.svg);
+}
+
 .section-title-summary {
     display: flex;
     flex-direction: column;
@@ -216,17 +251,21 @@ span.command {
     margin-bottom: 10px;
     padding: 0;
     padding-left: 25px;
+    height: 30px;
+    line-height: 30px;
 }
 
 .section-item::before {
     content: "";
     position: absolute;
+    vertical-align: middle;
     top: 5px;
     left: 0px;
-    width: 16px;
-    height: 16px;
-    background-size: 16px 16px;
-    background-image: url("assets/svg/1.svg");
+    width: 20px;
+    height: 20px;
+    mask-size: 20px 20px;
+    background-color: var(--blue-skye);
+    mask-image: url(assets/svg/1.svg);
 }
 
 .section-item span {
@@ -240,7 +279,7 @@ span.command {
 
 .contacts-item {
     position: relative;
-    margin-bottom: 10px;
+    height: 55px;
 }
 
 .contacts-item img {
