@@ -121,13 +121,23 @@ body{
     border: none;
 }
 
-.section-title.profile-name {
-    position: relative;
+.profile-name {
+    text-transform: uppercase;
     letter-spacing: 5px;
     word-spacing: 5px;
     font-size: 1.5em;
     font-weight: 400;
     color: var(--pine);
+}
+
+.profile-my-name {
+    display: block;
+    background-color: var(--pine);
+    mask-image: url(./assets/svg/ks.svg);
+    mask-repeat: no-repeat;
+    mask-size: contain;
+    height: 90px;
+    overflow: hidden;
 }
 
 .section-title {
@@ -265,12 +275,17 @@ li.section-item.link-dot:hover::before {
 }
 
 .section-title-summary {
+    width: 70%;
     display: flex;
     flex-direction: column;
+    align-items: center;
     justify-content: center;
-    align-content: center;
     text-align: center;
     text-transform: capitalize;
+}
+
+img.img-cover-name {
+    width: 100%;
 }
 
 img.avatar {
