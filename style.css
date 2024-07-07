@@ -1,3 +1,11 @@
 * {
     box-sizing: border-box;
 }
+
+:root{
+    --blue-skye: #4cb5f5;
+    --granite: #b7b8b6;
+    --pine: #34675c;
+    --fields: #5AF;
+    --main-color: #444;
+}
