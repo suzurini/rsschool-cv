@@ -153,6 +153,59 @@ body{
     border-bottom: 10px solid var(--pine);
 }
 
+a {
+    color: var(--blue-skye);
+    text-decoration: none;
+}
+
+a:hover{
+    color: var(--pine);
+    transition: .3s;
+}
+
+a>span.list-text {
+    color: var(--main-color);
+}
+
+li:hover>a>span.icon-discord, 
+li:hover>a>span.icon-github, 
+li:hover>a>span.icon-telegram, 
+li:hover>a>span.icon-email, 
+li:hover>a>span.icon-phone, 
+li:hover>a>span.icon-location{
+    background-color: var(--pine);
+    transition: .3s;
+}
+
+a.link-info::after {
+    content: "";
+    position: absolute;
+    left: 40px;
+    top: 30px;
+    width: calc(55% - 24px);
+    height: 2px;
+    background-color: var(--pine);
+    opacity: 0;
+    transition: .5s;
+}
+
+
+a.link-info:hover::after {
+    opacity: 1;
+    animation-name: slidein-info;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes slidein-info {
+    from {
+        width: 0;
+    }
+    to {
+        width: calc(55% - 24px);
+    }
+}
+
 .icon {
     display: inline-block;
     background-color: var(--blue-skye);
