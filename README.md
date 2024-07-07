@@ -1,1 +1,1 @@
-# rsschool-cv
+[Go to my rsschool-cv](https://suzurini.github.io/rsschool-cv/)
