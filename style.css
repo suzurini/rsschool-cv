@@ -224,7 +224,7 @@ a.link-course:hover::after, a.link-exp:hover::after {
     animation-fill-mode: forwards;
 }
 
-li.section-item:hover::before {
+li.section-item.link-dot:hover::before {
     background-color: var(--pine);
     transition: .3s;
 }
@@ -387,9 +387,19 @@ span.command {
 }
 
 .school {
-    background-image: url(./assets/svg/rss.svg);
+    background-color: #fff;
+    mask-image: url(./assets/svg/rss.svg);
     width: 120px;
     height: 45px;
-    background-size: contain;
-    background-repeat: no-repeat;
+    mask-size: contain;
+    mask-repeat: no-repeat;
+}
+
+.school:hover {
+    background-color: #34675c;
+    mask-image: url(./assets/svg/rss.svg);
+    width: 120px;
+    height: 45px;
+    mask-size: contain;
+    mask-repeat: no-repeat;
 }
