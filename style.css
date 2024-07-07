@@ -28,3 +28,30 @@ body{
     line-height: 1.5em;
     color: var(--main-color);
 }
+
+.header{
+    background-color: var(--fields);
+    position: fixed;
+    width: 100%;
+    overflow: hidden;
+    top: 0;
+    z-index: 999;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    min-height: 50px;
+    padding: 0 20px;
+}
+
+.main {
+    margin-bottom: auto;
+    margin-top: 90px;
+}
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
